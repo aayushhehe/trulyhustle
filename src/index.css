@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 body {
+<<<<<<< HEAD
   font-family: "Lexend Deca", sans-serif;
+=======
+  width: 100vw;
+  height: 100vh;
+>>>>>>> 212098ae8c296ea51dac0678671007f0ec4ea2ae
 }
