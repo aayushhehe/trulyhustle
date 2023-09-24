@@ -1,9 +1,11 @@
-import Navbar from "./components/Navjar";
-
+import Home from "./pages/HomePage";
+import LoginPage from "./pages/LoginPage";
 function App() {
+  
   return (
     <>
-      <Navbar />
+      {/* <Home /> */}
+      <LoginPage />
     </>
   );
 }
