@@ -1,10 +1,9 @@
-import Home from "./pages/HomePage";
+import Landing from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 function App() {
   return (
     <>
-      <Home />
-      {/* <LoginPage /> */}
+      <Landing />
     </>
   );
 }
