@@ -1,4 +1,4 @@
-# React + Vite
+# Truly Hustle - An Agile Based Workspace
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
