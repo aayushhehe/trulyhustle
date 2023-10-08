@@ -216,3 +216,13 @@
     transform: rotate(1980deg) translate(200px, 0.1px) rotate(-1980deg);
   }
 }
+
+.nav {
+  backdrop-filter: blur(10px);
+  border-color: rgba(128, 128, 128, 0.504);
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 0.359);
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
