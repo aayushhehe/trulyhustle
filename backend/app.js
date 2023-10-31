@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 const DB =
-  "mongodb+srv://aayush:Aayush@123@atlascluster.i90q0bw.mongodb.net/TrulyHustle?retryWrites=true&w=majority";
+  "mongodb+srv://aayush:12345@atlascluster.i90q0bw.mongodb.net/TrulyHustle?retryWrites=true&w=majority";
 
 mongoose
   .connect(DB, {

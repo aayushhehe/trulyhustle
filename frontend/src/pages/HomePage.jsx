@@ -5,6 +5,7 @@ import Bg from "../components/HeroBg";
 import Lottie from "lottie-react";
 import Lottie1 from "../lotties/landing lottie 1.json";
 import Lottie2 from "../lotties/landing lottie 2.json";
+import { Link } from "react-router-dom";
 
 const Landing = () => {
   return (
@@ -18,10 +19,15 @@ const Landing = () => {
           Be <span className="font-semibold">Bold</span>, Collaborative and
           Innovative
         </h1>
-        <button className="py-4 px-16 text-xl homeBtn">Be a Hustler</button>
+        <Link to={"/signup"}>
+          <button className="py-4 px-16 text-xl homeBtn">Be a Hustler</button>
+        </Link>
+
         <p className="text-[0.8rem] pt-2">
           Already have an account?{" "}
-          <button className="underline">Sign in</button>
+          <Link to={"/login"}>
+            <button className="underline">Sign in</button>{" "}
+          </Link>
         </p>
       </section>
       <section className="px-[10%]">
